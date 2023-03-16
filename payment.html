@@ -1,0 +1,122 @@
+<html>
+
+<head>
+
+    <title>Student Portal | Payment</title>
+</head>
+
+<body>
+    <br>
+    <table width="600px" height="50px" align="right" >
+        <tr>
+            <td><a href="index.html">
+                    <h2>Home</h2>
+                </a></td>
+            <td><a href="ragistration.html">
+                    <h2>Ragistration</h2>
+                </a></td>
+            <td><a href="contact.html">
+                    <h2>Contact</h2>
+                </a></td>
+            <td><a href="payment.html">
+                    <h2>Payment</h2>
+                </a></td>
+            
+            <td><a href="signup.html">
+                    <h2>SignUp</h2>
+                </a></td>
+        </tr>
+    </table>
+
+
+    <br><br><br>
+    <hr><br><br>
+
+
+    <table align="center">
+        <th>
+            <h1>Payment Details</h1>
+        </th>
+    </table>
+    <br><br>
+
+
+    <!-- payment section -->
+    
+    <table border="3px" align="center" width="40%" height="40%">
+       <form action="payment_mode.html" method="GET">
+        <th>SrNo</th>
+        <th>Student Details</th>
+        <th>Enter Details</th>
+        <tr>
+            <td>1</td>
+            <th><label for="one">Enter Student Name</label></th>
+            <td align="center"><input type="text" required name="sname" id="one"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <th><label for="two">Enter Student Email</label></th>
+            <td align="center"><input type="email" required name="semail" id="two"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <th><label for="three">Enter Student Pincode</label></th>
+            <td align="center"><input type="number" name="spincode" id="three"></td>
+        </tr>
+        <tr>
+            <td><label for="#">4</label></td>
+            <th><label for="#">Gender</label></th>
+            <td align="center">
+                <input type="radio" id="r1" name="sgender" value="0" checked><label for="r1">Male</label>
+                <!-- checked is default -->
+                <input type="radio" id="r2" name="sgender" value="1"><label for="r2">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <th><label for="four">Enter College PRN Number</label></th>
+            <td align="center"><input type="number" name="cprnno" id="four"></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <th><label for="five">Enter College ID</label></th>
+            <td align="center"><input type="number" name="cid" id="five"></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <th><label>Select Subject</label></th>
+            <td align="center">
+                <input type="checkbox" name="subject"  value="c++" id="six"><label for="six">C++</label>
+                <input type="checkbox" name="subject" value="java" id="seven"><label for="seven">Java</label>
+                <input type="checkbox" name="subject" value="python" id="eight"><label for="eight">Python</label>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2" align="center">Total</th>
+            <td>140000</td>
+            
+        </tr>
+        <tr align="center">
+            <td colspan="3"><input type="submit" value="Payment" name="payment"></td>
+            
+            
+        </tr>
+       </form>
+    </table>
+    <br><br><br><br><br><br><br><hr>
+
+
+
+
+    <footer>
+        <table align="center">
+            <tr>
+                <td>
+                    <h3>Copyright &copy; 2023. All Rights Reserved by Suraj@2001 </h3>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>
